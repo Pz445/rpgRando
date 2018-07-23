@@ -1,0 +1,329 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+html, body {
+  width: 100%;
+  height: 100vh;
+}
+
+.heading {
+  font-family: 'Chela One', cursive;
+  letter-spacing: 1px;
+}
+
+.contentHeading {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 5em;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 300px 2fr;
+  grid-template-areas:
+    "sidebar content"
+    "sidebar content"
+    "sidebar footer";
+}
+
+.sidebar {
+  grid-area: sidebar;
+  padding: 5em 20px 0 20px;
+  height: 100%;
+  border-right: 2px solid black;
+  position: fixed;
+}
+
+#sidebarLogo {
+  max-width: 250px;
+  height: auto;
+  margin: 0 auto 20px auto;
+  display: block;
+  border-bottom: 3px solid black;
+  padding-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+nav h3 {
+  text-decoration: underline;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.navActive {
+  font-weight: bold;
+}
+
+/* MOBILE NAVBAR */
+.navbar {
+    display: none;
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+
+/* CONTENT */
+.content {
+  grid-area: content;
+  padding: 3em 2em;
+  min-height: 100%;
+}
+
+main {
+  overflow: auto;
+  padding-bottom: 100px;
+}
+
+#homeLogo {
+  margin: 20px;
+  max-width: 300px;
+  height: auto;
+  display: none;
+}
+
+/* FOOTER */
+.footer {
+  grid-area: footer;
+  text-align: center;
+  width: 100%;
+  z-index: 2;
+  background: white;
+}
+
+/* HOME PAGE */
+#homeMain {
+  text-align: center;
+  margin-top: 8em;
+}
+
+#mobileLinks {
+  display: none;
+}
+
+.homeLinks {
+  margin-top: 3em;
+}
+
+/**DW GM TOOLS**/
+#dwGmContent {
+  background: url(../images/delver.jpg);
+  background-position: 70% 50%;
+  color: white;
+}
+
+.dwMain {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "title title"
+    "dwGmText results";
+}
+
+#dwTitle {
+  grid-area: title;
+  text-align: center;
+  margin-bottom: 1em;
+  text-shadow: 0px -7px 10px rgba(0, 0, 0, 1);
+  font-size: 5em;
+}
+
+.dwMain ul {
+  margin-bottom: 2em;
+}
+
+.dwGmText {
+  grid-area: dwGmText;
+  justify-self: center;
+  text-shadow: -5px -5px 10px rgba(0, 0, 0, 1);
+}
+
+.buttonSegment {
+  background: rgba(250, 220, 185, .9);
+  margin-bottom: 2em;
+  padding: 15px;
+  border-radius: 10px;
+  width: 40%;
+  text-align: center;
+}
+
+.btn {
+  border-radius: 10px;
+  padding: 6px;
+  transform: scale(1.2);
+}
+
+.dwBtn {
+  margin-bottom: 15px;
+  font-family: 'Chela One', cursive;
+  background: #FFECD6;
+}
+
+.genText {
+  color: black;
+  font-size: 1.1em;
+  font-weight: 700;
+}
+
+#npcText {
+  font-weight: normal;
+  text-align: left;
+}
+
+/* MOUNTAIN RANGE GENERATOR */
+#mountainRangeContent {
+  background: url(../images/mountainRange.jpg);
+}
+
+#shadeBox {
+  background: rgba(240, 236, 232, .6);
+  padding: 15px;
+  text-align: center;
+}
+
+#mountainList {
+  list-style-type: none;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "navbar"
+      "content"
+      "footer";
+  }
+
+  .sidebar {
+    grid-area: sidebar;
+    padding: 0;
+    height: auto;
+    border-bottom: 2px solid black;
+    border-right: none;
+    position: fixed;
+    display: none;
+    margin-bottom: 2em;
+    width: 100%;
+  }
+
+  .navbar {
+    display: inline-block;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+  }
+
+  #homeLogo {
+    display: block;
+    margin: 15px auto;
+  }
+
+  #mobileLinks {
+  display: inherit;
+  }
+
+  .dwMain {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "title"
+      "dwGmText"
+      "results";
+  }
+
+
+}
+
+@media only screen and (max-width: 1200px) {
+  .dwMain {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "title"
+      "dwGmText"
+      "results";
+  }
+
+  .buttonSegment {
+    margin: 0 auto 2em auto;
+    padding: 15px;
+    border-radius: 10px;
+    width: 60%;
+    text-align: center;
+  }
+}
