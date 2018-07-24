@@ -28,11 +28,11 @@ clicky.addEventListener("click", function() {
   var txtArray = txtNoPunc.split(" ");
   rando(txtArray);
   if ($("li").length > 0) {
-    $("ul").html('');
+    $("#mountainList").html('');
     txt = userInput.val();
   }
-  for (var i = 0; i < 20; i++) {
-    $("ul").append("<li>" + markovIt() + " " + markovIt() + "</li>");
+  for (var i = 0; i < 10; i++) {
+    $("#mountainList").append("<li>" + markovIt() + " " + markovIt() + "</li>");
   }
   txtArray = [];
   beginnings = [];
