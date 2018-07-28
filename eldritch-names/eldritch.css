@@ -1,0 +1,11 @@
+#eldritchContent {
+  background: url(../images/cosmic.jpg);
+  background-size: auto;
+  background-position: -460px -1170px;
+  background-repeat: no-repeat;
+}
+
+#eldritchTitle {
+  color: khaki;
+  text-shadow: -4px 5px 6px rgba(163, 87, 120, 0.85);
+}
