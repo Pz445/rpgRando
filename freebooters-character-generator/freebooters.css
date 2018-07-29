@@ -1,0 +1,61 @@
+.two-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "left right";
+}
+
+#freebootersCharacterContent {
+  background: url(../images/freebooters.jpg);
+  background-size: cover;
+}
+
+.left-col {
+  grid-area: left;
+  text-align: left;
+}
+
+.right-col {
+  grid-area: right;
+  justify-content: center;
+}
+
+#freeTitle {
+  text-shadow: 0px -5px 7px rgba(77,77,79,0.74);
+}
+
+.underText  {
+  text-decoration: underline;
+}
+
+#statBlock {
+  margin: 20px auto;
+  border: 1px solid black;
+  width: 85%;
+}
+
+#statBlock td {
+  border: 1px solid black;
+}
+
+.hidden {
+  display: none;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+li {
+  padding-left: 10px;
+}
+
+#spellGenerator {
+  margin-top: 25px;
+  padding-top: 10px;
+  border-top: 3px solid black;
+}
+
+#spellClick {
+  margin: 10px;
+}

@@ -16,7 +16,8 @@ var character = {
     wis: 0,
     cha: 0,
     lck: 0
-  }
+  },
+
 };
 var stats = [];
 
@@ -331,6 +332,8 @@ function alignmentText (alignment) {
 
 //roll traits (based on Alignment)
 function rollTraits (alignment) {
+  character.vices = [];
+  character.virtues = [];
   var align = character.alignment;
   if (align === "Evil") {
     character.vices = getVices(3);
@@ -412,11 +415,80 @@ function rollCharacter () {
   rollAlignment(character.playbook);
   alignmentText(character.alignment);
   rollAppearance(character.playbook);
+  for (var i = 0; i < character.appearance.length; i++) {
+    if (character.appearance[i] === undefined) {
+      rollAppearance(character.playbook);
+    }
+  }
   rollTraits(character.alignment);
+  if (character.vices === undefined) {
+    rollTraits(character.alignment);
+  }
   rollGear(character.playbook);
-  console.log(character);
+  // console.log(character);
 }
 
+$("#mtnClick").click(function() {
+  rollCharacter();
+  $("#charContainer").removeClass("hidden");
+  $("#charName").text(character.name);
+  if (character.playbook === "Magic-User") {
+    $("#wizName").text(character.wizardName);
+    $("#wizTitle").removeClass("hidden");
+    $("#spellGenerator").removeClass("hidden");
+  } else {
+    $("#wizTitle").addClass("hidden");
+    $("#spellGenerator").addClass("hidden");
+  }
+  $("#gender").text(character.gender);
+  $("#race").text(character.heritage);
+  $("#profession").text(character.playbook);
+  $("#hitdie").text(character.hitDie);
+  $("#alignment").text(character.alignment);
+  $("#alignText").text(character.alignmentText);
+  if ($("#appearance li").length > 0) {
+    $("#appearance").html('');
+  }
+  for (var i = 0; i < character.appearance.length; i++) {
+    $("#appearance").append("<li>" + character.appearance[i] + "</li>");
+  }
+  if ($("#virtues li").length > 0) {
+    $("#virtues").html('');
+  }
+  for (var i = 0; i < character.virtues.length; i++) {
+    $("#virtues").append("<li>" + character.virtues[i] + "</li>");
+  }
+  if ($("#vices li").length > 0) {
+    $("#vices").html('');
+  }
+  for (var i = 0; i < character.vices.length; i++) {
+    $("#vices").append("<li>" + character.vices[i] + "</li>");
+  }
+  if ($("#gear li").length > 0) {
+    $("#gear").html('');
+  }
+  for (var i = 0; i < character.gear.length; i++) {
+    $("#gear").append("<li>" + character.gear[i] + "</li>");
+  }
+  $("#strScore").text(character.abilityScore.strength);
+  $("#dexScore").text(character.abilityScore.dexterity);
+  $("#conScore").text(character.abilityScore.constitution);
+  $("#intScore").text(character.abilityScore.intelligence);
+  $("#wisScore").text(character.abilityScore.wisdom);
+  $("#chaScore").text(character.abilityScore.charisma);
+  $("#lckScore").text(character.abilityScore.luck);
+  $("#strMod").text(character.abilityMod.str);
+  $("#dexMod").text(character.abilityMod.dex);
+  $("#conMod").text(character.abilityMod.con);
+  $("#intMod").text(character.abilityMod.int);
+  $("#wisMod").text(character.abilityMod.wis);
+  $("#chaMod").text(character.abilityMod.cha);
+  $("#lckMod").text(character.abilityMod.lck);
+});
+
+$("#spellClick").click(function() {
+  $("#spellName").text(getSpell());
+});
 
 //list arrays
 function getHumanMaleName () {
@@ -3062,6 +3134,7 @@ function rollGear(playbook) {
 }
 
 function rollClericGear() {
+  character.gear = [];
   var coin = rollDice(6, 2) + character.abilityMod.lck;
   var weaponRoll = rollDice(6, 1);
   var otherRoll = rollDice(6, 1);
@@ -3105,6 +3178,7 @@ function rollClericGear() {
 }
 
 function rollFighterGear() {
+  character.gear = [];
   var coin = rollDice(10, 1) + character.abilityMod.lck;
   var weaponRoll = rollDice(6, 1);
   var otherRoll = rollDice(6, 1);
@@ -3177,6 +3251,7 @@ function rollFighterGear() {
 }
 
 function rollThiefGear() {
+  character.gear = [];
   var coin = rollDice(10, 2) + character.abilityMod.lck;
   var weaponRoll = rollDice(6, 1);
   var otherRoll = rollDice(6, 1);
@@ -3220,6 +3295,7 @@ function rollThiefGear() {
 }
 
 function rollMagicUserGear() {
+  character.gear = [];
   var coin = rollDice(6, 2) + character.abilityMod.lck;
   var weaponRoll = rollDice(6, 1);
   var otherRoll = rollDice(6, 1);

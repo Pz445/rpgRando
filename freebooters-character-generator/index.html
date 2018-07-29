@@ -2,10 +2,11 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Mountain Range Generator</title>
+    <title>Freebooters on the Frontier Character Generator</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Chela+One|Source+Sans+Pro:400,700" rel="stylesheet">
     <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="freebooters.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
@@ -16,25 +17,103 @@
           <h2 class="heading">Generators by System</h2>
           <ul>
             <li><a href="../dw-gm-tools/index.html" >Dungeon World GM Tools</a></li>
+            <li><a href="#" class="navActive" >Freebooters on the Frontier Character Generator</a></li>
           </ul>
           <h2 class="heading">Name Generators</h2>
           <ul>
             <li><a href="../eldritch-names/index.html" class="">Eldritch Names</a></li>
             <li><a href="../forest-names/index.html" class="">Forest Names</a></li>
-            <li><a href="../mountain-range-names" class="">Mountain Ranges</a></li>
+            <li><a href="../mountain-range-names/index.html" class="">Mountain Ranges</a></li>
           </ul>
         </nav>
       </div>
 
 
-      <div class="content" id="mountainRangeContent">
+      <div class="content" id="freebootersCharacterContent">
         <main class="">
-          <h1 class="heading contentHeading" id="">Mountain Ranges</h1>
+          <h1 class="heading contentHeading" id="freeTitle">Freebooters on the Frontier Character Generator</h1>
           <div class="" id="shadeBox">
-            <ul id="mountainList" class="genText">
+            <div class="hidden" id="charContainer">
+              <div class="two-column">
+                <div class="left-col">
+                  <h2 id="charName" class="heading"></h2>
+                  <p><span id="gender"></span> <span id="race"></span> <span id="profession"></span></p>
+                  <h3 class="hidden" id="wizTitle">Wizard Name: <span class="heading" id="wizName"></span></h3>
+                  <p><strong>Hit Die: </strong><span id="hitdie"></span></p>
+                  <p><strong>Alignment: <em><span id="alignment"></span></em></strong> - <span id="alignText"></span></p>
+                  <h3 class="heading underText">Appearance</h3>
+                  <ul id="appearance">
 
-            </ul>
-            <button class="btn" id="mtnClick">Click to Generate Names</button>
+                  </ul>
+                  <h3 class="heading underText">Traits</h3>
+                  <h4 class="heading">Virtues</h4>
+                  <ul id="virtues">
+
+                  </ul>
+                  <h4 class="heading">Vices</h4>
+                  <ul id="vices">
+
+                  </ul>
+                  <h3 class="heading underText">Gear</h3>
+                  <ul id="gear">
+
+                  </ul>
+                </div>
+                <div class="right-col">
+                  <h2 class="heading">Stats</h2>
+                  <table id="statBlock">
+                    <tbody>
+                      <tr>
+                        <th>Stat</th>
+                        <th>Score</th>
+                        <th>Mod</th>
+                      </tr>
+                      <tr>
+                        <td>Strength</td>
+                        <td><span id="strScore"></span></td>
+                        <td><span id="strMod"></span></td>
+                      </tr>
+                      <tr>
+                        <td>Dexterity</td>
+                        <td><span id="dexScore"></span></td>
+                        <td><span id="dexMod"></span></td>
+                      </tr>
+                      <tr>
+                        <td>Constitution</td>
+                        <td><span id="conScore"></span></td>
+                        <td><span id="conMod"></span></td>
+                      </tr>
+                      <tr>
+                        <td>Intelligence</td>
+                        <td><span id="intScore"></span></td>
+                        <td><span id="intMod"></span></td>
+                      </tr>
+                      <tr>
+                        <td>Wisdom</td>
+                        <td><span id="wisScore"></span></td>
+                        <td><span id="wisMod"></span></td>
+                      </tr>
+                      <tr>
+                        <td>Charisma</td>
+                        <td><span id="chaScore"></span></td>
+                        <td><span id="chaMod"></span></td>
+                      </tr>
+                      <tr>
+                        <td>Luck</td>
+                        <td><span id="lckScore"></span></td>
+                        <td><span id="lckMod"></span></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <button class="btn" id="mtnClick">Click to Generate a Character</button>
+            <div class="hidden" id="spellGenerator">
+              <h3>Congratulations! You are a Magic-User! Click below to get a spell.</h3>
+              <button class="btn" id="spellClick">Click to Generate a Spell</button>
+              <h4>"<span id="spellName"></span>"</h4>
+            </div>
           </div>
           <div>
             <a href="../index.html"><img src="../images/LogoMakr_8CcQfl.png" id="homeLogo"></a>
@@ -53,7 +132,7 @@
 
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="generator.js"></script>
+    <script type="text/javascript" src="freebooters-script.js"></script>
     <script type="text/javascript" src="../scripts/script.js"></script>
   </body>
 </html>
