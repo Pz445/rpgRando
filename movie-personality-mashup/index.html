@@ -2,10 +2,11 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Mountain Range Generator</title>
+    <title>Character Personality Mashup</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Chela+One|Source+Sans+Pro:400,700" rel="stylesheet">
     <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="personalityMashup.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
@@ -22,24 +23,38 @@
           <ul>
             <li><a href="../eldritch-names/index.html" class="">Eldritch Names</a></li>
             <li><a href="../forest-names/index.html" class="">Forest Names</a></li>
-            <li><a href="#" class="navActive">Mountain Ranges</a></li>
+            <li><a href="../mountain-range-names/index.html" >Mountain Ranges</a></li>
           </ul>
           <h2 class="heading">Other Generators</h2>
           <ul>
-            <li><a href="../movie-personality-mashup/index.html" class="">Personality Mashup</a></li>
+            <li><a href="#" class="navActive">Personality Mashup</a></li>
           </ul>
         </nav>
       </div>
 
 
-      <div class="content" id="mountainRangeContent">
+      <div class="content" id="personalityMashupContent">
         <main class="">
-          <h1 class="heading contentHeading" id="">Mountain Ranges</h1>
+          <h1 class="heading contentHeading" id="white">Personality Mashup</h1>
           <div class="" id="shadeBox">
+            <div class="charSplit">
+              <div class="leftChar">
+                <img src="" class="charPic" id="leftCharPic">
+                <h3 class="heading" id="leftCharName"></h3>
+                <h4 class="genText" id="leftCharMovie"></h4>
+              </div>
+              <div class="rightChar">
+                <img src="" class="charPic" id="rightCharPic">
+                <h3 class="heading" id="rightCharName"></h3>
+                <h4 class="genText" id="rightCharMovie"></h4>
+              </div>
+            </div>
             <ul id="mountainList" class="genText">
 
             </ul>
-            <button class="btn" id="mtnClick">Click to Generate Names</button>
+            <p><strong>How does this work?</strong></p>
+            <p>The generator will produce two characters from popular movies.  Mashup the strengths, weaknesses, looks, virtues, voices, or mannerisms of these characters to generate a personality for your PC/NPC.</p>
+            <button class="btn" id="mtnClick">Click to Generate a Personality Mashup</button>
           </div>
           <div>
             <a href="../index.html"><img src="../images/LogoMakr_8CcQfl.png" id="homeLogo"></a>
@@ -58,7 +73,7 @@
 
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="generator.js"></script>
+    <script type="text/javascript" src="personalityMashup.js"></script>
     <script type="text/javascript" src="../scripts/script.js"></script>
   </body>
 </html>

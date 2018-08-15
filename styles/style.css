@@ -38,6 +38,10 @@ html, body {
   max-width: 250px;
 }
 
+.sidebar li {
+  padding-left: 7px;
+}
+
 #sidebarLogo {
   max-width: 250px;
   height: auto;
@@ -157,6 +161,7 @@ main {
 }
 
 .btn {
+  margin-top: 10px;
   border-radius: 10px;
   padding: 6px;
   transform: scale(1.2);
@@ -179,6 +184,10 @@ main {
 #npcText {
   font-weight: normal;
   text-align: left;
+}
+
+.hidden {
+  display: none;
 }
 
 /* MOUNTAIN RANGE GENERATOR */

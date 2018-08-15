@@ -1,0 +1,43 @@
+#personalityMashupContent {
+  background: url(../images/personalityMashup.jpg);
+  background-size: cover;
+}
+
+.charSplit {
+  display: flex;
+  max-width: 100%;
+  justify-content: space-around;
+}
+
+#white {
+  color: white;
+  text-shadow: -3px -4px 2px rgba(0, 0, 0, 1);
+}
+
+.leftChar {
+  max-width: 100%;
+}
+
+.rightChar {
+  max-width: 100%;
+}
+
+#leftCharPic, #rightCharPic {
+  max-width: 90%;
+  height: 400px;
+  max-height: 400px;
+}
+
+@media only screen and (max-width: 900px) {
+  .charSplit {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  #leftCharPic, #rightCharPic {
+      max-width: 90%;
+      height: auto;
+      max-height: 400px;
+  }
+}
