@@ -347,6 +347,56 @@ let charList = [
     name: "The Princess Bride",
     movie: "The Princess Bride",
     image: "https://m.media-amazon.com/images/M/MV5BN2RiY2YwZjctMDQ4OC00YTkzLThjYmMtMzcxMWJjZGI1MDJjXkEyXkFqcGdeQXVyODQ4NDAyNzc@._V1_SX1777_CR0,0,1777,962_AL_.jpg"
+  },
+  {
+    name: "John McClane",
+    movie: "Die Hard",
+    image: "https://m.media-amazon.com/images/M/MV5BMGZkMDI3MjYtMTI5ZS00YTJlLWEzZGUtY2MwODIyNDUwYTA2XkEyXkFqcGdeQXVyMDEwMjgxNg@@._V1_.jpg"
+  },
+  {
+    name: "Holly McClane",
+    movie: "Die Hard",
+    image: "https://m.media-amazon.com/images/M/MV5BNmU1OTUwZjEtN2YwYi00NGYyLTllNTQtZGJmN2MzZjNmMmFjXkEyXkFqcGdeQXVyMDEwMjgxNg@@._V1_.jpg"
+  },
+  {
+    name: "Sgt. Al Powell",
+    movie: "Die Hard",
+    image: "https://m.media-amazon.com/images/M/MV5BYTAxMDBkYjAtMTkwOC00Yzc4LWIwNzQtZGJlMWFlNDRjZjg1XkEyXkFqcGdeQXVyMDEwMjgxNg@@._V1_.jpg"
+  },
+  {
+    name: "Hans Gruber",
+    movie: "Die Hard",
+    image: "https://m.media-amazon.com/images/M/MV5BMGRhMTJmYjMtOGVhYS00YTRmLTk0YjItNTJhMzhkM2UzZWFiXkEyXkFqcGdeQXVyNjAwODA4Mw@@._V1_.jpg"
+  },
+  {
+    name: "Dr. Peter Venkman",
+    movie: "Ghostbusters",
+    image: "https://upload.wikimedia.org/wikipedia/en/5/51/Peter_GB1.jpg"
+  },
+  {
+    name: "Dr. Raymond Stantz",
+    movie: "Ghostbusters",
+    image: "https://m.media-amazon.com/images/M/MV5BNWY3MDIxMGEtMDM4Yi00MWYwLWI4ZGMtZTE4MTNmNTQ5MmQ2XkEyXkFqcGdeQXVyNjQ4ODE4MzQ@._V1_SY1000_CR0,0,1480,1000_AL_.jpg"
+  },
+  {
+    name: "Dana Barrett",
+    movie: "Ghostbusters",
+    image: "https://m.media-amazon.com/images/M/MV5BMTY5MjAxNzU3OF5BMl5BanBnXkFtZTgwNjg3NzI2MDE@._V1_SY1000_CR0,0,1465,1000_AL_.jpg"
+  },
+  {
+    name: "Dr. Egon Spengler",
+    movie: "Ghostbusters",
+    image: "https://m.media-amazon.com/images/M/MV5BNzA1Mzc0ZTktYjYxMS00M2RkLTkzY2QtYzE4MzUxYzExMjhhXkEyXkFqcGdeQXVyNjAwODA4Mw@@._V1_.jpg"
+  },
+  {
+    name: "Janine Melnitz",
+    movie: "Ghostbusters",
+    image: "https://m.media-amazon.com/images/M/MV5BMjUzNjMwZTAtMWIzOC00MDUwLTk0OWItOTNkZGY2ZmZjNDE3XkEyXkFqcGdeQXVyMzQ3Nzk5MTU@._V1_.jpg"
+  },
+  {
+    name: "Winston Zeddmore",
+    movie: "Ghostbusters",
+    image: "https://m.media-amazon.com/images/M/MV5BYzNkZWEzZmYtODRhMy00NzliLWEwZDItYzA3ODYzM2RjOGVlXkEyXkFqcGdeQXVyMzQ3Nzk5MTU@._V1_.jpg"
   }
 ];
 
