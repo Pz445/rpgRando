@@ -397,6 +397,41 @@ let charList = [
     name: "Winston Zeddmore",
     movie: "Ghostbusters",
     image: "https://m.media-amazon.com/images/M/MV5BYzNkZWEzZmYtODRhMy00NzliLWEwZDItYzA3ODYzM2RjOGVlXkEyXkFqcGdeQXVyMzQ3Nzk5MTU@._V1_.jpg"
+  },
+  {
+    name: "Ferris Bueller",
+    movie: "Ferris Bueller's Day Off",
+    image: "https://m.media-amazon.com/images/M/MV5BMTQ3OTQ1NTQxNV5BMl5BanBnXkFtZTcwODQzOTI2OQ@@._V1_SY1000_CR0,0,651,1000_AL_.jpg"
+  },
+  {
+    name: "Sloane Peterson",
+    movie: "Ferris Bueller's Day Off",
+    image: "https://m.media-amazon.com/images/M/MV5BMjE5ODQ2MjM5NV5BMl5BanBnXkFtZTcwNDUzOTI2OQ@@._V1_SY1000_CR0,0,695,1000_AL_.jpg"
+  },
+  {
+    name: "Ed Rooney",
+    movie: "Ferris Bueller's Day Off",
+    image: "https://m.media-amazon.com/images/M/MV5BMTY2NDkyOTY2Nl5BMl5BanBnXkFtZTcwOTI0OTI2OQ@@._V1_SX1492_CR0,0,1492,999_AL_.jpg"
+  },
+  {
+    name: "Jeanie Bueller",
+    movie: "Ferris Bueller's Day Off",
+    image: "https://m.media-amazon.com/images/M/MV5BMjE1Nzk2NDE3M15BMl5BanBnXkFtZTcwNjkzOTI2OQ@@._V1_SY1000_CR0,0,667,1000_AL_.jpg"
+  },
+  {
+    name: "Kevin McCallister",
+    movie: "Home Alone",
+    image: "https://m.media-amazon.com/images/M/MV5BMTg4MTUyNDMwN15BMl5BanBnXkFtZTcwOTMzMTk4NA@@._V1_SY1000_CR0,0,1493,1000_AL_.jpg"
+  },
+  {
+    name: "Harry Lime",
+    movie: "Home Alone",
+    image: "https://m.media-amazon.com/images/M/MV5BMTQzODQ2NzE1NF5BMl5BanBnXkFtZTcwMzMzMTk4NA@@._V1_.jpg"
+  },
+  {
+    name: "Kate McCallister",
+    movie: "Home Alone",
+    image: "https://m.media-amazon.com/images/M/MV5BMjE3Njc2NzM3Nl5BMl5BanBnXkFtZTgwMDIyMDQ5NjE@._V1_.jpg"
   }
 ];
 
