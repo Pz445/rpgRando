@@ -432,6 +432,76 @@ let charList = [
     name: "Kate McCallister",
     movie: "Home Alone",
     image: "https://m.media-amazon.com/images/M/MV5BMjE3Njc2NzM3Nl5BMl5BanBnXkFtZTgwMDIyMDQ5NjE@._V1_.jpg"
+  },
+  {
+    name: "Phil",
+    movie: "Groundhog Day",
+    image: "https://m.media-amazon.com/images/M/MV5BYzllNjJmM2EtMzE4YS00YWU5LWJiMTctYmJkNjY3YzU2NWJiL2ltYWdlXkEyXkFqcGdeQXVyNDAxOTExNTM@._V1_.jpg"
+  },
+  {
+    name: "Rita",
+    movie: "Groundhog Day",
+    image: "https://m.media-amazon.com/images/M/MV5BMTM2MDgxODE4N15BMl5BanBnXkFtZTcwODAxMTkxNA@@._V1_SY1000_CR0,0,667,1000_AL_.jpg"
+  },
+  {
+    name: "Clark Griswold",
+    movie: "National Lampoon's Vacation Series",
+    image: "https://m.media-amazon.com/images/M/MV5BZWVmZTljOTgtNjNiNi00ZGFhLTgwOTgtOTRjNzNhZjYwODhiXkEyXkFqcGdeQXVyNzc5NjM0NA@@._V1_SX1777_CR0,0,1777,999_AL_.jpg"
+  },
+  {
+    name: "Ellen Griswold",
+    movie: "National Lampoon's Vacation Series",
+    image: "https://m.media-amazon.com/images/M/MV5BMmFiYTJlYmEtZDZkNi00N2VlLTg3ODMtZWZiMDAyNTg5OTM4XkEyXkFqcGdeQXVyMzAwOTU1MTk@._V1_SY1000_CR0,0,822,1000_AL_.jpg"
+  },
+  {
+    name: "Cousin Eddie",
+    movie: "National Lampoon's Vacation Series",
+    image: "https://m.media-amazon.com/images/M/MV5BNThlZDNjMTAtNTE5Yi00ZDI1LWEzYWUtMTk1NDhiMmU5NTIxXkEyXkFqcGdeQXVyMjUyNDk2ODc@._V1_SY1000_CR0,0,1422,1000_AL_.jpg"
+  },
+  {
+    name: "Russell Casse",
+    movie: "Independence Day",
+    image: "https://pbs.twimg.com/media/DhR6JbPU8AAT2-_.jpg"
+  },
+  {
+    name: "Captain Steven Hiller",
+    movie: "Independence Day",
+    image: "https://m.media-amazon.com/images/M/MV5BNzRlMDI3MTktMGIzYS00ZDJmLTljNjAtMzU4MmY1NzY4NDAxXkEyXkFqcGdeQXVyNTAyNDQ2NjI@._V1_SX1777_CR0,0,1777,750_AL_.jpg"
+  },
+  {
+    name: "President Thomas J. Whitmore",
+    movie: "Independence Day",
+    image: "https://4.bp.blogspot.com/-YJmBAhF7stU/V3wXdHYe_KI/AAAAAAAAfvc/f9glGcbkzmoA_XCgx2_SL-2_aqPO0L8_gCLcB/s640/bill-pullman-independance-day.png"
+  },
+  {
+    name: "David Levinson",
+    movie: "Independence Day",
+    image: "https://m.media-amazon.com/images/M/MV5BNGU5NTc4NjctOWRiOC00NDM1LWE2NTktYzQ0NzVkMWY1NTY4XkEyXkFqcGdeQXVyNzc5NjM0NA@@._V1_.jpg"
+  },
+  {
+    name: "Mikey",
+    movie: "The Goonies",
+    image: "https://m.media-amazon.com/images/M/MV5BY2RiYWE1ZWEtZDdmMy00YThkLWEwN2MtMjMyMjFlOTMxYmUwXkEyXkFqcGdeQXVyMjUyNDk2ODc@._V1_.jpg"
+  },
+  {
+    name: "Chunk",
+    movie: "The Goonies",
+    image: "https://m.media-amazon.com/images/M/MV5BMzQzYzEzOWYtNGEyMS00MDlmLTllZjUtNWUxMzA3ZjllYjI1XkEyXkFqcGdeQXVyMjUyNDk2ODc@._V1_.jpg"
+  },
+  {
+    name: "Mouth",
+    movie: "The Goonies",
+    image: "https://assets.heart.co.uk/2015/22/then-and-now-corey-feldman-the-goonies-1433502409-view-0.jpg"
+  },
+  {
+    name: "Andy",
+    movie: "The Goonies",
+    image: "https://filmjunkie13.files.wordpress.com/2013/06/kerri-green-1.jpg"
+  },
+  {
+    name: "Data",
+    movie: "The Goonies",
+    image: "https://m.media-amazon.com/images/M/MV5BMDk3ZmU2MTctYzQ1Mi00YjJlLTk0MGYtM2I3MjlkMDQ3ZjlkXkEyXkFqcGdeQXVyMjUyNDk2ODc@._V1_.jpg"
   }
 ];
 
