@@ -502,6 +502,21 @@ let charList = [
     name: "Data",
     movie: "The Goonies",
     image: "https://m.media-amazon.com/images/M/MV5BMDk3ZmU2MTctYzQ1Mi00YjJlLTk0MGYtM2I3MjlkMDQ3ZjlkXkEyXkFqcGdeQXVyMjUyNDk2ODc@._V1_.jpg"
+  },
+  {
+    name: "Sarah Connor",
+    movie: "The Terminator",
+    image: "https://m.media-amazon.com/images/M/MV5BNTA0NTI4OTgxNF5BMl5BanBnXkFtZTcwMzE4MTc4Mw@@._V1_SY1000_CR0,0,1486,1000_AL_.jpg"
+  },
+  {
+    name: "Kay",
+    movie: "Men In Black",
+    image: "https://m.media-amazon.com/images/M/MV5BMjE0MzIyODY0OF5BMl5BanBnXkFtZTgwMTY3OTIwMjE@._V1_SY1000_CR0,0,661,1000_AL_.jpg"
+  },
+  {
+    name: "Jay",
+    movie: "Men In Black",
+    image: "https://m.media-amazon.com/images/M/MV5BMjM0MTgyMDUzOV5BMl5BanBnXkFtZTgwODU3OTIwMjE@._V1_SY1000_CR0,0,662,1000_AL_.jpg"
   }
 ];
 
