@@ -517,6 +517,56 @@ let charList = [
     name: "Jay",
     movie: "Men In Black",
     image: "https://m.media-amazon.com/images/M/MV5BMjM0MTgyMDUzOV5BMl5BanBnXkFtZTgwODU3OTIwMjE@._V1_SY1000_CR0,0,662,1000_AL_.jpg"
+  },
+  {
+    name: "Jack Sparrow",
+    movie: "Pirates of the Caribbean",
+    image: "https://m.media-amazon.com/images/M/MV5BNTA0NzIxODktMzQ1ZC00MmJmLWI2N2EtNGVhZDI1MmMwMmFkXkEyXkFqcGdeQXVyNjUxMjc1OTM@._V1_SX1777_CR0,0,1777,755_AL_.jpg"
+  },
+  {
+    name: "Barbossa",
+    movie: "Pirates of the Caribbean",
+    image: "https://m.media-amazon.com/images/M/MV5BOWM5NjlkM2YtNTVkMi00NTA4LWEyYjUtZDg2YjRhMmJmMjdkXkEyXkFqcGdeQXVyNjUxMjc1OTM@._V1_SX1777_CR0,0,1777,755_AL_.jpg"
+  },
+  {
+    name: "Will Turner",
+    movie: "Pirates of the Caribbean",
+    image: "https://m.media-amazon.com/images/M/MV5BNjY5NDczODEtZjUwMi00YmRmLWFjNGQtNzYwZGIwODc5YWQwXkEyXkFqcGdeQXVyNjUxMjc1OTM@._V1_SX1777_CR0,0,1777,755_AL_.jpg"
+  },
+  {
+    name: "Elizabeth Swann",
+    movie: "Pirates of the Caribbean",
+    image: "https://m.media-amazon.com/images/M/MV5BMjYzMDBiMTktMmQzNS00NTgxLTlhNTYtNDRjMmU5MTMzMzAxXkEyXkFqcGdeQXVyNjUxMjc1OTM@._V1_SX1777_CR0,0,1777,755_AL_.jpg"
+  },
+  {
+    name: "Andrew Clark",
+    movie: "The Breakfast Club",
+    image: "https://m.media-amazon.com/images/M/MV5BMDdkMmVjOTYtYjU0Ni00NjI1LThiMDctYTNiNzBmMWE0NDEzXkEyXkFqcGdeQXVyNDIzNDExOQ@@._V1_.jpg"
+  },
+  {
+    name: "Richard Vernon",
+    movie: "The Breakfast Club",
+    image: "https://m.media-amazon.com/images/M/MV5BNGQwMGVhZmEtYjgzNi00NmQ1LWJkMWYtYWU5NzE2NjU0ZTAxXkEyXkFqcGdeQXVyNTQ1NzU4Njk@._V1_.jpg"
+  },
+  {
+    name: "Brian Johnson",
+    movie: "The Breakfast Club",
+    image: "https://m.media-amazon.com/images/M/MV5BMTgyMDgwODYwNl5BMl5BanBnXkFtZTgwNjMyODY2ODE@._V1_.jpg"
+  },
+  {
+    name: "John Bender",
+    movie: "The Breakfast Club",
+    image: "https://m.media-amazon.com/images/M/MV5BMWMxMWZmZTQtYWQ2NS00ZmZiLWEzZjktZWEzOTQwMmZkOTlhL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjAwODA4Mw@@._V1_.jpg"
+  },
+  {
+    name: "Claire Standish",
+    movie: "The Breakfast Club",
+    image: "https://m.media-amazon.com/images/M/MV5BNjNiZGYzZmEtM2FkNC00ODU3LWJiZWUtZDhkN2RmODgzY2Q5XkEyXkFqcGdeQXVyNTQ1NzU4Njk@._V1_.jpg"
+  },
+  {
+    name: "Allison Reynolds",
+    movie: "The Breakfast Club",
+    image: "https://m.media-amazon.com/images/M/MV5BZWNlYjdlYTQtMjlkNy00ZmFjLThiZDctZGFlYTAzMjMzZmYxXkEyXkFqcGdeQXVyNjAwODA4Mw@@._V1_.jpg"
   }
 ];
 
