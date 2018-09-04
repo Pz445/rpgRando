@@ -567,6 +567,31 @@ let charList = [
     name: "Allison Reynolds",
     movie: "The Breakfast Club",
     image: "https://m.media-amazon.com/images/M/MV5BZWNlYjdlYTQtMjlkNy00ZmFjLThiZDctZGFlYTAzMjMzZmYxXkEyXkFqcGdeQXVyNjAwODA4Mw@@._V1_.jpg"
+  },
+  {
+    name: "Dorothy",
+    movie: "The Wizard of Oz",
+    image: "https://m.media-amazon.com/images/M/MV5BMTMwMzk2OTcxN15BMl5BanBnXkFtZTcwMjg4NTkxNA@@._V1_SY1000_CR0,0,1370,1000_AL_.jpg"
+  },
+  {
+    name: "Tony Stark / Iron Man",
+    movie: "Marvel Cinematic Universe",
+    image: "https://m.media-amazon.com/images/M/MV5BMjI3NDY5NjYxMl5BMl5BanBnXkFtZTcwOTU2OTY3Nw@@._V1_SX1500_CR0,0,1500,999_AL_.jpg"
+  },
+  {
+    name: "Steve Rogers / Captain America",
+    movie: "Marvel Cinematic Universe",
+    image: "https://m.media-amazon.com/images/M/MV5BMTM0NjYxMjYwN15BMl5BanBnXkFtZTcwMzM4ODY3Nw@@._V1_SX1777_CR0,0,1777,999_AL_.jpg"
+  },
+  {
+    name: "Bruce Banner / The Hulk",
+    movie: "Marvel Cinematic Universe",
+    image: "https://m.media-amazon.com/images/M/MV5BMTQ2NDQ1ODMxOV5BMl5BanBnXkFtZTcwMjY5OTY3Nw@@._V1_SX1777_CR0,0,1777,999_AL_.jpg"
+  },
+  {
+    name: "Thor",
+    movie: "Marvel Cinematic Universe",
+    image: "https://m.media-amazon.com/images/M/MV5BMWRjNThjNzMtMzIxNy00NWFkLTgxYWEtYjI1MTdlYzhmZDQwXkEyXkFqcGdeQXVyMjg0NjIyNDM@._V1_SX1777_CR0,0,1777,999_AL_.jpg"
   }
 ];
 
