@@ -41,7 +41,7 @@ let charList = [
   {
     name: "Vincent Vega",
     movie: "Pulp Fiction",
-    image: "https://m.media-amazon.com/images/M/MV5BYjlmNmRmZGMtMzRmNS00NTM4LTg0MjctM2ExNDZlN2ZhMTJjXkEyXkFqcGdeQXVyNjAwODA4Mw@@._V1_.jpg"
+    image: "https://bamfstyle.files.wordpress.com/2016/10/pulpvincecas-cl1-jkt1.jpg"
   },
   {
     name: "Jules Winnfield",
@@ -592,6 +592,31 @@ let charList = [
     name: "Thor",
     movie: "Marvel Cinematic Universe",
     image: "https://m.media-amazon.com/images/M/MV5BMWRjNThjNzMtMzIxNy00NWFkLTgxYWEtYjI1MTdlYzhmZDQwXkEyXkFqcGdeQXVyMjg0NjIyNDM@._V1_SX1777_CR0,0,1777,999_AL_.jpg"
+  },
+  {
+    name: "Natasha Romanoff / Black Widow",
+    movie: "Marvel Cinematic Universe",
+    image: "https://m.media-amazon.com/images/M/MV5BMTc4Njc3MTAwN15BMl5BanBnXkFtZTcwMDY2OTY3Nw@@._V1_SY1000_CR0,0,666,1000_AL_.jpg"
+  },
+  {
+    name: "Clint Barton / Hawkeye",
+    movie: "Marvel Cinematic Universe",
+    image: "https://m.media-amazon.com/images/M/MV5BMjA1NDU0ODE4N15BMl5BanBnXkFtZTcwODM3OTY3Nw@@._V1_SX1500_CR0,0,1500,999_AL_.jpg"
+  },
+  {
+    name: "Loki",
+    movie: "Marvel Cinematic Universe",
+    image: "https://m.media-amazon.com/images/M/MV5BMTg5MzcwMTc1OF5BMl5BanBnXkFtZTcwNDkyOTY3Nw@@._V1_SX1500_CR0,0,1500,999_AL_.jpg"
+  },
+  {
+    name: "Loki",
+    movie: "Marvel Cinematic Universe",
+    image: "https://m.media-amazon.com/images/M/MV5BMTg5MzcwMTc1OF5BMl5BanBnXkFtZTcwNDkyOTY3Nw@@._V1_SX1500_CR0,0,1500,999_AL_.jpg"
+  },
+  {
+    name: "Elliott",
+    movie: "E.T. the Extra-Terrestrial",
+    image: "https://m.media-amazon.com/images/M/MV5BMTQ4OTU2MTQ3N15BMl5BanBnXkFtZTgwMDE3MTg5MTE@._V1_SY1000_CR0,0,1515,1000_AL_.jpg"
   }
 ];
 
