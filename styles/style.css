@@ -78,7 +78,7 @@ nav a:hover {
 /* CONTENT */
 .content {
   grid-area: content;
-  padding: 3em 2em;
+  padding: 0 2em;
   /* height: 100vh; */
 }
 
