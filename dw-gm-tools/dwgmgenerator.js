@@ -317,7 +317,8 @@ var npcName = [
 	"Roshan",
 	"Sammael",
 	"Toben",
-	"Zephyr"
+	"Zephyr",
+	"Isoru"
 ];
 
 var quirk =[
